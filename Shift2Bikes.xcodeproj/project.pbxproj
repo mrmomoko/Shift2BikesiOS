@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB3E5E71BA4BC060086A2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5E61BA4BC060086A2A0 /* AppDelegate.swift */; };
+		4CB3E5E91BA4BC060086A2A0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5E81BA4BC060086A2A0 /* FirstViewController.swift */; };
+		4CB3E5EB1BA4BC060086A2A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5EA1BA4BC060086A2A0 /* SecondViewController.swift */; };
+		4CB3E5EE1BA4BC060086A2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3E5EC1BA4BC060086A2A0 /* Main.storyboard */; };
+		4CB3E5F01BA4BC060086A2A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3E5EF1BA4BC060086A2A0 /* Images.xcassets */; };
+		4CB3E5F31BA4BC060086A2A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3E5F11BA4BC060086A2A0 /* LaunchScreen.xib */; };
+		4CB3E5FF1BA4BC060086A2A0 /* Shift2BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5FE1BA4BC060086A2A0 /* Shift2BikesTests.swift */; };
+		4CB3E6A11BA4BD0B0086A2A0 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E60B1BA4BD0B0086A2A0 /* AFHTTPRequestOperation.m */; };
+		4CB3E6A21BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E60D1BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.m */; };
+		4CB3E6A31BA4BD0B0086A2A0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E60F1BA4BD0B0086A2A0 /* AFHTTPSessionManager.m */; };
+		4CB3E6A41BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E6121BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.m */; };
+		4CB3E6A51BA4BD0B0086A2A0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E6141BA4BD0B0086A2A0 /* AFSecurityPolicy.m */; };
+		4CB3E6A61BA4BD0B0086A2A0 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E6161BA4BD0B0086A2A0 /* AFURLConnectionOperation.m */; };
+		4CB3E6A71BA4BD0B0086A2A0 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E6181BA4BD0B0086A2A0 /* AFURLRequestSerialization.m */; };
+		4CB3E6A81BA4BD0B0086A2A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E61A1BA4BD0B0086A2A0 /* AFURLResponseSerialization.m */; };
+		4CB3E6A91BA4BD0B0086A2A0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E61C1BA4BD0B0086A2A0 /* AFURLSessionManager.m */; };
+		4CBFC3D81BA4C58000122167 /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFC3D71BA4C58000122167 /* CalendarTableViewController.swift */; };
+		4CBFC3DA1BA4C6EC00122167 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFC3D91BA4C6EC00122167 /* CalendarEvent.swift */; };
+		4CBFC3DC1BA4CAA500122167 /* CalendarEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFC3DB1BA4CAA500122167 /* CalendarEventCell.swift */; };
+		4CBFC3DE1BA4CE2A00122167 /* EventBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFC3DD1BA4CE2A00122167 /* EventBuilder.swift */; };
+		4CBFC3E01BA4CEEE00122167 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFC3DF1BA4CEEE00122167 /* SessionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB3E5F91BA4BC060086A2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3E5D91BA4BC060086A2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB3E5E01BA4BC060086A2A0;
+			remoteInfo = Shift2Bikes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CB3E5E11BA4BC060086A2A0 /* Shift2Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shift2Bikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3E5E51BA4BC060086A2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB3E5E61BA4BC060086A2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB3E5E81BA4BC060086A2A0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4CB3E5EA1BA4BC060086A2A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4CB3E5ED1BA4BC060086A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB3E5EF1BA4BC060086A2A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CB3E5F21BA4BC060086A2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CB3E5F81BA4BC060086A2A0 /* Shift2BikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shift2BikesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3E5FD1BA4BC060086A2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB3E5FE1BA4BC060086A2A0 /* Shift2BikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift2BikesTests.swift; sourceTree = "<group>"; };
+		4CB3E60A1BA4BD0B0086A2A0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4CB3E60B1BA4BD0B0086A2A0 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4CB3E60C1BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4CB3E60D1BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4CB3E60E1BA4BD0B0086A2A0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4CB3E60F1BA4BD0B0086A2A0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4CB3E6101BA4BD0B0086A2A0 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4CB3E6111BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4CB3E6121BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4CB3E6131BA4BD0B0086A2A0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4CB3E6141BA4BD0B0086A2A0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4CB3E6151BA4BD0B0086A2A0 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4CB3E6161BA4BD0B0086A2A0 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4CB3E6171BA4BD0B0086A2A0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4CB3E6181BA4BD0B0086A2A0 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4CB3E6191BA4BD0B0086A2A0 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4CB3E61A1BA4BD0B0086A2A0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4CB3E61B1BA4BD0B0086A2A0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4CB3E61C1BA4BD0B0086A2A0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4CBFC3D71BA4C58000122167 /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewController.swift; sourceTree = "<group>"; };
+		4CBFC3D91BA4C6EC00122167 /* CalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		4CBFC3DB1BA4CAA500122167 /* CalendarEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEventCell.swift; sourceTree = "<group>"; };
+		4CBFC3DD1BA4CE2A00122167 /* EventBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBuilder.swift; sourceTree = "<group>"; };
+		4CBFC3DF1BA4CEEE00122167 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		4CBFC3E11BA4CFBA00122167 /* Shift2Bikes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shift2Bikes-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB3E5DE1BA4BC060086A2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3E5F51BA4BC060086A2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB3E5D81BA4BC060086A2A0 = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5E31BA4BC060086A2A0 /* Shift2Bikes */,
+				4CB3E5FB1BA4BC060086A2A0 /* Shift2BikesTests */,
+				4CB3E5E21BA4BC060086A2A0 /* Products */,
+				4CB3E6081BA4BD0B0086A2A0 /* AFNetworking */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB3E5E21BA4BC060086A2A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5E11BA4BC060086A2A0 /* Shift2Bikes.app */,
+				4CB3E5F81BA4BC060086A2A0 /* Shift2BikesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB3E5E31BA4BC060086A2A0 /* Shift2Bikes */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5E61BA4BC060086A2A0 /* AppDelegate.swift */,
+				4CB3E5E81BA4BC060086A2A0 /* FirstViewController.swift */,
+				4CBFC3D71BA4C58000122167 /* CalendarTableViewController.swift */,
+				4CB3E5EA1BA4BC060086A2A0 /* SecondViewController.swift */,
+				4CBFC3DB1BA4CAA500122167 /* CalendarEventCell.swift */,
+				4CBFC3DD1BA4CE2A00122167 /* EventBuilder.swift */,
+				4CBFC3DF1BA4CEEE00122167 /* SessionManager.swift */,
+				4CBFC3E11BA4CFBA00122167 /* Shift2Bikes-Bridging-Header.h */,
+				4CBFC3D91BA4C6EC00122167 /* CalendarEvent.swift */,
+				4CB3E5EC1BA4BC060086A2A0 /* Main.storyboard */,
+				4CB3E5EF1BA4BC060086A2A0 /* Images.xcassets */,
+				4CB3E5F11BA4BC060086A2A0 /* LaunchScreen.xib */,
+				4CB3E5E41BA4BC060086A2A0 /* Supporting Files */,
+			);
+			path = Shift2Bikes;
+			sourceTree = "<group>";
+		};
+		4CB3E5E41BA4BC060086A2A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5E51BA4BC060086A2A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB3E5FB1BA4BC060086A2A0 /* Shift2BikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5FE1BA4BC060086A2A0 /* Shift2BikesTests.swift */,
+				4CB3E5FC1BA4BC060086A2A0 /* Supporting Files */,
+			);
+			path = Shift2BikesTests;
+			sourceTree = "<group>";
+		};
+		4CB3E5FC1BA4BC060086A2A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E5FD1BA4BC060086A2A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB3E6081BA4BD0B0086A2A0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E6091BA4BD0B0086A2A0 /* AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4CB3E6091BA4BD0B0086A2A0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3E60A1BA4BD0B0086A2A0 /* AFHTTPRequestOperation.h */,
+				4CB3E60B1BA4BD0B0086A2A0 /* AFHTTPRequestOperation.m */,
+				4CB3E60C1BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.h */,
+				4CB3E60D1BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.m */,
+				4CB3E60E1BA4BD0B0086A2A0 /* AFHTTPSessionManager.h */,
+				4CB3E60F1BA4BD0B0086A2A0 /* AFHTTPSessionManager.m */,
+				4CB3E6101BA4BD0B0086A2A0 /* AFNetworking.h */,
+				4CB3E6111BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.h */,
+				4CB3E6121BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.m */,
+				4CB3E6131BA4BD0B0086A2A0 /* AFSecurityPolicy.h */,
+				4CB3E6141BA4BD0B0086A2A0 /* AFSecurityPolicy.m */,
+				4CB3E6151BA4BD0B0086A2A0 /* AFURLConnectionOperation.h */,
+				4CB3E6161BA4BD0B0086A2A0 /* AFURLConnectionOperation.m */,
+				4CB3E6171BA4BD0B0086A2A0 /* AFURLRequestSerialization.h */,
+				4CB3E6181BA4BD0B0086A2A0 /* AFURLRequestSerialization.m */,
+				4CB3E6191BA4BD0B0086A2A0 /* AFURLResponseSerialization.h */,
+				4CB3E61A1BA4BD0B0086A2A0 /* AFURLResponseSerialization.m */,
+				4CB3E61B1BA4BD0B0086A2A0 /* AFURLSessionManager.h */,
+				4CB3E61C1BA4BD0B0086A2A0 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB3E5E01BA4BC060086A2A0 /* Shift2Bikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB3E6021BA4BC060086A2A0 /* Build configuration list for PBXNativeTarget "Shift2Bikes" */;
+			buildPhases = (
+				4CB3E5DD1BA4BC060086A2A0 /* Sources */,
+				4CB3E5DE1BA4BC060086A2A0 /* Frameworks */,
+				4CB3E5DF1BA4BC060086A2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shift2Bikes;
+			productName = Shift2Bikes;
+			productReference = 4CB3E5E11BA4BC060086A2A0 /* Shift2Bikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB3E5F71BA4BC060086A2A0 /* Shift2BikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB3E6051BA4BC060086A2A0 /* Build configuration list for PBXNativeTarget "Shift2BikesTests" */;
+			buildPhases = (
+				4CB3E5F41BA4BC060086A2A0 /* Sources */,
+				4CB3E5F51BA4BC060086A2A0 /* Frameworks */,
+				4CB3E5F61BA4BC060086A2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB3E5FA1BA4BC060086A2A0 /* PBXTargetDependency */,
+			);
+			name = Shift2BikesTests;
+			productName = Shift2BikesTests;
+			productReference = 4CB3E5F81BA4BC060086A2A0 /* Shift2BikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB3E5D91BA4BC060086A2A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Momoko Saunders";
+				TargetAttributes = {
+					4CB3E5E01BA4BC060086A2A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4CB3E5F71BA4BC060086A2A0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4CB3E5E01BA4BC060086A2A0;
+					};
+				};
+			};
+			buildConfigurationList = 4CB3E5DC1BA4BC060086A2A0 /* Build configuration list for PBXProject "Shift2Bikes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB3E5D81BA4BC060086A2A0;
+			productRefGroup = 4CB3E5E21BA4BC060086A2A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB3E5E01BA4BC060086A2A0 /* Shift2Bikes */,
+				4CB3E5F71BA4BC060086A2A0 /* Shift2BikesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB3E5DF1BA4BC060086A2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3E5EE1BA4BC060086A2A0 /* Main.storyboard in Resources */,
+				4CB3E5F31BA4BC060086A2A0 /* LaunchScreen.xib in Resources */,
+				4CB3E5F01BA4BC060086A2A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3E5F61BA4BC060086A2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB3E5DD1BA4BC060086A2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3E6A11BA4BD0B0086A2A0 /* AFHTTPRequestOperation.m in Sources */,
+				4CB3E5EB1BA4BC060086A2A0 /* SecondViewController.swift in Sources */,
+				4CB3E6A21BA4BD0B0086A2A0 /* AFHTTPRequestOperationManager.m in Sources */,
+				4CB3E6A41BA4BD0B0086A2A0 /* AFNetworkReachabilityManager.m in Sources */,
+				4CB3E6A81BA4BD0B0086A2A0 /* AFURLResponseSerialization.m in Sources */,
+				4CB3E6A61BA4BD0B0086A2A0 /* AFURLConnectionOperation.m in Sources */,
+				4CBFC3DE1BA4CE2A00122167 /* EventBuilder.swift in Sources */,
+				4CBFC3DA1BA4C6EC00122167 /* CalendarEvent.swift in Sources */,
+				4CBFC3D81BA4C58000122167 /* CalendarTableViewController.swift in Sources */,
+				4CB3E6A51BA4BD0B0086A2A0 /* AFSecurityPolicy.m in Sources */,
+				4CB3E6A31BA4BD0B0086A2A0 /* AFHTTPSessionManager.m in Sources */,
+				4CBFC3DC1BA4CAA500122167 /* CalendarEventCell.swift in Sources */,
+				4CB3E6A71BA4BD0B0086A2A0 /* AFURLRequestSerialization.m in Sources */,
+				4CB3E6A91BA4BD0B0086A2A0 /* AFURLSessionManager.m in Sources */,
+				4CB3E5E71BA4BC060086A2A0 /* AppDelegate.swift in Sources */,
+				4CB3E5E91BA4BC060086A2A0 /* FirstViewController.swift in Sources */,
+				4CBFC3E01BA4CEEE00122167 /* SessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3E5F41BA4BC060086A2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3E5FF1BA4BC060086A2A0 /* Shift2BikesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB3E5FA1BA4BC060086A2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB3E5E01BA4BC060086A2A0 /* Shift2Bikes */;
+			targetProxy = 4CB3E5F91BA4BC060086A2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB3E5EC1BA4BC060086A2A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB3E5ED1BA4BC060086A2A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB3E5F11BA4BC060086A2A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB3E5F21BA4BC060086A2A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB3E6001BA4BC060086A2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB3E6011BA4BC060086A2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB3E6031BA4BC060086A2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shift2Bikes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CB3E6041BA4BC060086A2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shift2Bikes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CB3E6061BA4BC060086A2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Shift2BikesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shift2Bikes.app/Shift2Bikes";
+			};
+			name = Debug;
+		};
+		4CB3E6071BA4BC060086A2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Shift2BikesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shift2Bikes.app/Shift2Bikes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB3E5DC1BA4BC060086A2A0 /* Build configuration list for PBXProject "Shift2Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3E6001BA4BC060086A2A0 /* Debug */,
+				4CB3E6011BA4BC060086A2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB3E6021BA4BC060086A2A0 /* Build configuration list for PBXNativeTarget "Shift2Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3E6031BA4BC060086A2A0 /* Debug */,
+				4CB3E6041BA4BC060086A2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB3E6051BA4BC060086A2A0 /* Build configuration list for PBXNativeTarget "Shift2BikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3E6061BA4BC060086A2A0 /* Debug */,
+				4CB3E6071BA4BC060086A2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB3E5D91BA4BC060086A2A0 /* Project object */;
+}
