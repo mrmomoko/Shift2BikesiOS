@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9BCCE61BF014CF0054B59D /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9BCCE51BF014CF0054B59D /* CalendarCollectionViewCell.swift */; };
 		4CB3E5E71BA4BC060086A2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5E61BA4BC060086A2A0 /* AppDelegate.swift */; };
 		4CB3E5E91BA4BC060086A2A0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5E81BA4BC060086A2A0 /* FirstViewController.swift */; };
 		4CB3E5EB1BA4BC060086A2A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3E5EA1BA4BC060086A2A0 /* SecondViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C9BCCE51BF014CF0054B59D /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 		4CB3E5E11BA4BC060086A2A0 /* Shift2Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shift2Bikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB3E5E51BA4BC060086A2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB3E5E61BA4BC060086A2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,14 +125,15 @@
 				4CB3E5E81BA4BC060086A2A0 /* FirstViewController.swift */,
 				4CBFC3D71BA4C58000122167 /* CalendarTableViewController.swift */,
 				4CB3E5EA1BA4BC060086A2A0 /* SecondViewController.swift */,
+				4C9BCCE51BF014CF0054B59D /* CalendarCollectionViewCell.swift */,
 				4CBFC3DB1BA4CAA500122167 /* CalendarEventCell.swift */,
 				4CBFC3DD1BA4CE2A00122167 /* EventBuilder.swift */,
 				4CBFC3DF1BA4CEEE00122167 /* SessionManager.swift */,
-				4CBFC3E11BA4CFBA00122167 /* Shift2Bikes-Bridging-Header.h */,
 				4CBFC3D91BA4C6EC00122167 /* CalendarEvent.swift */,
 				4CB3E5EC1BA4BC060086A2A0 /* Main.storyboard */,
 				4CB3E5EF1BA4BC060086A2A0 /* Images.xcassets */,
 				4CB3E5F11BA4BC060086A2A0 /* LaunchScreen.xib */,
+				4CBFC3E11BA4CFBA00122167 /* Shift2Bikes-Bridging-Header.h */,
 				4CB3E5E41BA4BC060086A2A0 /* Supporting Files */,
 			);
 			path = Shift2Bikes;
@@ -239,6 +242,8 @@
 		4CB3E5D91BA4BC060086A2A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Momoko Saunders";
 				TargetAttributes = {
@@ -307,6 +312,7 @@
 				4CB3E6A51BA4BD0B0086A2A0 /* AFSecurityPolicy.m in Sources */,
 				4CB3E6A31BA4BD0B0086A2A0 /* AFHTTPSessionManager.m in Sources */,
 				4CBFC3DC1BA4CAA500122167 /* CalendarEventCell.swift in Sources */,
+				4C9BCCE61BF014CF0054B59D /* CalendarCollectionViewCell.swift in Sources */,
 				4CB3E6A71BA4BD0B0086A2A0 /* AFURLRequestSerialization.m in Sources */,
 				4CB3E6A91BA4BD0B0086A2A0 /* AFURLSessionManager.m in Sources */,
 				4CB3E5E71BA4BC060086A2A0 /* AppDelegate.swift in Sources */,

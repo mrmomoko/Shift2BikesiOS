@@ -10,22 +10,27 @@ import Foundation
 
 class EventBuilder : NSObject {
     var events = [CalendarEvent]()
-    let mySpecialNotificationKey = "com.andrewcbancroft.specialNotificationKey"
+    let mySpecialNotificationKey = "com.momokosaunders.specialNotificationKey"
     
     func pullDownEvents() {
-        let path = "http://stevekirkendall.info/~shift/cal/viewjson.php"
-        var request : NSMutableURLRequest = NSMutableURLRequest()
+        // eventually, the 
+        let path = "https://www.shift2bikes.org/cal/viewjson.php"
+        let request : NSMutableURLRequest = NSMutableURLRequest()
         request.URL = NSURL(string: path)
         request.HTTPMethod = "GET"
         
-        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue(), completionHandler:{ (response:NSURLResponse!, data: NSData!, error: NSError!) -> Void in
+        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue(), completionHandler:{ (response:NSURLResponse?, data: NSData?, error: NSError?) -> Void in
             var error: AutoreleasingUnsafeMutablePointer<NSError?> = nil
-            let jsonResult = NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions.MutableContainers, error: error) as? NSArray
-            
-            if (jsonResult != nil) {
-                self.events = self.createEventsWithJSON(jsonResult!)
-            } else {
-                // couldn't load JSON, look at error
+            if let data = data {
+                do { if let jsonResult = try NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions.MutableContainers) as? NSArray {
+                        self.events = self.createEventsWithJSON(jsonResult)
+                    } else {
+                        // couldn't load JSON, look at error
+                    }
+                } catch let error as NSError {
+                    
+                }
+             
             }
         })
     }
@@ -33,7 +38,7 @@ class EventBuilder : NSObject {
     func createEventsWithJSON(json: NSArray) -> [CalendarEvent] {
         var events = [CalendarEvent]()
         for object in json {
-            var event = CalendarEvent()
+            let event = CalendarEvent()
             event.title = object.valueForKey("tinytitle") as? String
             event.eventDescription = object.valueForKey("printdescr") as? String
             event.date = object.valueForKey("eventdate") as? String
